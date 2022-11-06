@@ -5,7 +5,7 @@ class Pet {
     }
 
     describe() {
-        return `${this.petName} is a cute ${this.breed}.`;
+        return `${this.name} is a cute ${this.breed}.`;
     }
 }
 
@@ -138,5 +138,3 @@ class Menu {
 
 let menu = new Menu();
 menu.start();
-
-console.log(Pet(violet,2));
